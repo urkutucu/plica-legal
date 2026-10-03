@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Plica — Privacy Policy</title><style>
+:root{--ink:#0F1B2D;--paper:#F7F5F0;--fold:#2E5BFF;--muted:#5B6475;--border:#E3DFD6}
+@media (prefers-color-scheme:dark){:root{--ink:#F2F1EC;--paper:#0B1220;--muted:#A7AFBE;--border:#273144;--fold:#7D97FF}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 80px}h1{font-size:30px;letter-spacing:-.5px;margin:24px 0 8px}h2{font-size:20px;margin:32px 0 8px}
+a{color:var(--fold)}em{color:var(--muted)}ul{padding-left:20px}header{display:flex;align-items:center;gap:10px;font-weight:600}
+header svg{width:28px;height:28px}nav a{margin-right:16px;font-size:14px}footer{margin-top:48px;border-top:1px solid var(--border);padding-top:16px;color:var(--muted);font-size:14px}
+</style></head>
+<body><main><header><svg viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M29.5 12h14.5a26 26 0 0 1 0 52H44v24a3.5 3.5 0 0 1-3.5 3.5h-11A3.5 3.5 0 0 1 26 88V15.5A3.5 3.5 0 0 1 29.5 12zM44 30v16a8 8 0 0 0 0-16z"/><path fill="#2E5BFF" d="M29.5 12H44v18L26 15.5A3.5 3.5 0 0 1 29.5 12z"/></svg> Plica</header><nav><a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Use</a> <a href="support.html">Support</a></nav><h1>Plica Privacy Policy</h1>
+<p><em>Effective: 3 October 2026 · Version 1.0</em></p>
+<p>Plica is a document scanner built around one rule: <strong>your documents stay on your device.</strong> This policy explains what Plica does with data, in plain language.</p>
+<h2>What Plica stores on your device</h2>
+<ul>
+<li>Scanned page images, thumbnails and recognised text are stored <strong>encrypted (AES-256-GCM)</strong> in the app&#x27;s private storage. The database is encrypted as well. Encryption keys live in the device keychain / keystore and never leave the device.</li>
+<li>Preferences such as theme, language and default filters.</li>
+<li>When you turn on &quot;Lock Plica&quot;, biometric or passcode checks are performed by the operating system; Plica never sees biometric data.</li>
+</ul>
+<h2>What leaves your device</h2>
+<p>Nothing, unless one of the following applies:</p>
+<ul>
+<li><strong>Plica AI (optional, on by default, switchable in Settings → Privacy).</strong> For summaries, &quot;Ask this document&quot; and advanced extraction, Plica sends the <strong>recognised text</strong> of the document (never the image) to our private inference server, together with an anonymous install identifier. Text is processed in memory and is not stored or logged. On devices that support an on-device model, these features run on the device and nothing is sent.</li>
+<li><strong>Remote text recognition fallback (off by default).</strong> If enabled and the device cannot read a script, the page image is sent to the same private server, processed in memory and discarded.</li>
+<li><strong>Anonymous usage statistics (on by default, switchable).</strong> Event names such as &quot;scan_completed&quot; or &quot;pdf_created&quot; with an anonymous install identifier and a timestamp. No document content, no text, no personal identifiers. Statistics are sent only to our own server; no third-party analytics SDKs are used.</li>
+<li><strong>Sharing.</strong> When you share a PDF or image you choose where it goes; that destination&#x27;s policy applies.</li>
+<li><strong>Advertising (free tier only).</strong> Plica uses Google AdMob to show ads in the free tier. AdMob may collect device identifiers and usage data as described in Google&#x27;s privacy policy. Where required (EEA/UK/Switzerland) you are asked for consent first and can change your choice in Settings → Ad privacy options. Plica Pro subscribers see no ads and no ad requests are made.</li>
+<li><strong>Purchases.</strong> Subscriptions are processed by Apple (App Store) or Google (Google Play). Plica receives only a signed purchase receipt to unlock Pro; it never sees payment details.</li>
+</ul>
+<h2>What Plica never does</h2>
+<ul>
+<li>Never uploads your document images for AI features.</li>
+<li>Never sells or shares personal data with data brokers.</li>
+<li>Never writes recognised text, images, tokens or credentials to logs.</li>
+<li>Never requires an account.</li>
+</ul>
+<h2>Retention and deletion</h2>
+<p>Everything stays on your device until you delete it. Deleted documents move to &quot;Recently deleted&quot; for 30 days, then the encrypted files are overwritten and removed. Uninstalling the app removes all local data. Our server keeps no document data to delete; anonymous usage statistics are retained in aggregate form for up to 24 months.</p>
+<h2>Children</h2>
+<p>Plica is not directed to children under 13 and does not knowingly collect personal data from them.</p>
+<h2>Your rights</h2>
+<p>Depending on where you live (GDPR, UK GDPR, CCPA, KVKK), you may have rights to access, correct or delete personal data. Because Plica does not hold personal data about you, these rights are satisfied by the controls in the app. For questions, contact us at the address below.</p>
+<h2>Changes</h2>
+<p>We will update this page and the effective date when the policy changes materially.</p>
+<h2>Contact</h2>
+<p>Novemade · <a href="mailto:plica@novemade.com">plica@novemade.com</a></p><footer>© 2026 Novemade · Plica is a private document scanner for iPhone, iPad and Android.</footer></main></body></html>
